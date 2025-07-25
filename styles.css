@@ -1,0 +1,100 @@
+body {
+  margin: 0px;
+  display: flex;
+}
+
+.modal-content {
+  display: block;
+  background-color: grey;
+  padding: 8px;
+  border-radius: 8px;
+  width: 40vw;
+  height: 19.5vh;
+}
+form {
+  gap: 5px;
+}
+
+.hidden {
+  /* for modal windows */
+  display: none;
+}
+
+.projects_container {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(49, 49, 199);
+  width: 30vw;
+  height: 100vh;
+}
+.header,
+form {
+  margin: 8px;
+  border-color: rgb(49, 49, 199);
+  display: flex;
+  flex-direction: column;
+}
+
+.projects_list {
+  margin: inherit;
+}
+.project {
+  background-color: white;
+  /* min-height: 1em; */
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 16px;
+  padding: 10px;
+  text-align: left;
+  margin: 1em;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.low {
+  color: green;
+}
+.medium {
+  color: darkblue;
+}
+.high {
+  color: red;
+}
+
+.todos_container {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  width: 70vw;
+  height: 100vh;
+  align-items: center;
+}
+.task {
+  background-color: white;
+  margin: 8px;
+  padding: 8px;
+  width: 65vw;
+  border-radius: 8px;
+}
+.task.completed {
+  background-color: grey;
+}
+
+.newTaskBtn_container {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newTaskBtn {
+  width: 30vw;
+  height: 80px;
+  margin: 10px;
+  border-radius: 16px;
+  border-style: none;
+}
