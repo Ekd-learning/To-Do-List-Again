@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+  <script defer src="main.js"></script></head>
+  <body>
+    <div class="projects_container">
+      <div class="header">
+          <strong><i>Projects</i></strong>
+        </div>
+        <!-- <br /> -->
+        <form>
+          <input
+            type="text"
+            id="project-name"
+            name="project-name"
+            required
+            minlength="4"
+            maxlength="30"
+            size="100%"
+          />
+          <br>
+          <button type="submit" id="submit-project-btn" class="none" width="100%" height="100%">Add Project</button>
+        </form>
+        <div class="projects_list"></div>
+      </div>
+    </div>
+    <div class="todos_container"></div>
+  </body>
+</html>
